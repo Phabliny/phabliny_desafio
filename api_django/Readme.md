@@ -27,15 +27,6 @@ Caso deseje criar um ambiente virtual para isolar as dependências do projeto, s
 
 O ambiente virtual será ativado e o terminal exibirá o nome do ambiente virtual entre parênteses.
 
-## Criação e Aplicação das Migrações
-Para criar as migrações com base nos modelos definidos no projeto, execute o seguinte comando:
-
-`python3 manage.py makemigrations`
-
-Após a criação das migrações, aplique-as ao banco de dados usando o comando:
-
-`python3 manage.py migrate`
-
 ## Executando a Aplicação
 Finalmente, execute o seguinte comando para iniciar o servidor de desenvolvimento:
 
